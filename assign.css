@@ -1,0 +1,19 @@
+
+        h1{
+            height:65px;
+            color:blue;
+            
+            
+          }
+          .abc{
+            width:700px;;
+            box-align: center;
+            margin-left:305px;
+            border: 2px solid bisque;
+            height:400px;
+            background-color:azure;
+            
+          }
+        body{
+            background-color:cadetblue;
+        }

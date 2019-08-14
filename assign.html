@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <title>assign</title>
+<meta charset="utf-8">
+<meta name="viewport",content="width=device-width",scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="assign.css">
+<script src="assign.js"></script>
+</head>
+
+<body>
+  <br><center><h1 >     Registration form</h1></center><br>
+<div class="abc" >
+  <form name="myForm" method="post" >
+      
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="FName"><b>First Name</b></label><br>
+              <input type="text" class="form-control" id="FName" placeholder="Enter  your First Name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="LName"><b>Last Name</b></label><br>
+              <input type="text" class="form-control" id="LName" placeholder="Enter your Last Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="Email"><b>Email Id</b></label><br>
+            <input type="text" class="form-control" id="Email" placeholder="Enter your Email Id">
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="DOB"><b>Date Of Birth</b></label><br>
+              <input type="Date" class="form-control" id="DOB">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="city"><b>City</b></label>
+                <input type="text" class="form-control" id="city" placeholder="Enter your City">
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="Ipass"><b>Password</b></label>
+                <input type="password" class="form-control" id="Ipass" placeholder="Enter  your Password">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="Cpass"><b>Confirm Password</b></label>
+                <input type="password" class="form-control" id="Cpass" placeholder="Confirm your Password">
+              </div>
+            </div>
+          
+         <center> <button type="submit" class="btn btn-primary" value="Submit" onclick=" validateForm()"><b>Submit</b></button></center>
+        </form>
+        
+  </div>
+  <p><span id='xyz'></span></p>
+</body>
+</html>
