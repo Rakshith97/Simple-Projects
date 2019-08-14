@@ -58,7 +58,7 @@ function validateForm() {
       alert("form successfully submitted");
 
   }
-  document.getElementById('FName').value=123;
+  
 }
 
 
